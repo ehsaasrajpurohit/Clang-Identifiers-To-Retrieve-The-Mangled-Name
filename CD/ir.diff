@@ -1,0 +1,62 @@
+--- test.ll	2024-07-28 20:26:55
++++ mangled-test.ll	2024-07-28 20:27:20
+@@ -1,16 +1,16 @@
+-; ModuleID = 'test.c'
++; ModuleID = 'test.ll'
+ source_filename = "test.c"
+ target datalayout = "e-m:o-i64:64-i128:128-n32:64-S128"
+ target triple = "arm64-apple-macosx14.0.0"
+ 
+-%struct.structurino = type { i32, i32 }
++%oVIE5TqmFZ = type { i32, i32 }
+ 
+-@varstandsforvideoassistantrefereee = global i32 666, align 4
+-@.str = private unnamed_addr constant [9 x i8] c"Sum: %d\0A\00", align 1
+-@.str.1 = private unnamed_addr constant [26 x i8] c"Global variableuuuuh: %d\0A\00", align 1
++@oLWW3Cn8u0 = global i32 666, align 4
++@"7uW8dcy40K" = private unnamed_addr constant [9 x i8] c"Sum: %d\0A\00", align 1
++@WjghZYazCP = private unnamed_addr constant [26 x i8] c"Global variableuuuuh: %d\0A\00", align 1
+ 
+ ; Function Attrs: noinline nounwind optnone ssp uwtable(sync)
+-define void @my_function(i32 noundef %0, i32 noundef %1) #0 {
++define void @"5NXw3t19So"(i32 noundef %0, i32 noundef %1) #0 {
+   %3 = alloca i32, align 4
+   %4 = alloca i32, align 4
+   store i32 %0, ptr %3, align 4
+@@ -18,7 +18,7 @@
+   %5 = load i32, ptr %3, align 4
+   %6 = load i32, ptr %4, align 4
+   %7 = add nsw i32 %5, %6
+-  %8 = call i32 (ptr, ...) @printf(ptr noundef @.str, i32 noundef %7)
++  %8 = call i32 (ptr, ...) @printf(ptr noundef @"7uW8dcy40K", i32 noundef %7)
+   ret void
+ }
+ 
+@@ -27,19 +27,19 @@
+ ; Function Attrs: noinline nounwind optnone ssp uwtable(sync)
+ define i32 @main() #0 {
+   %1 = alloca i32, align 4
+-  %2 = alloca %struct.structurino, align 4
++  %2 = alloca %oVIE5TqmFZ, align 4
+   store i32 0, ptr %1, align 4
+-  %3 = getelementptr inbounds %struct.structurino, ptr %2, i32 0, i32 0
++  %3 = getelementptr inbounds %oVIE5TqmFZ, ptr %2, i32 0, i32 0
+   store i32 400, ptr %3, align 4
+-  %4 = getelementptr inbounds %struct.structurino, ptr %2, i32 0, i32 1
++  %4 = getelementptr inbounds %oVIE5TqmFZ, ptr %2, i32 0, i32 1
+   store i32 20, ptr %4, align 4
+-  %5 = load i32, ptr @varstandsforvideoassistantrefereee, align 4
+-  %6 = call i32 (ptr, ...) @printf(ptr noundef @.str.1, i32 noundef %5)
+-  %7 = getelementptr inbounds %struct.structurino, ptr %2, i32 0, i32 0
++  %5 = load i32, ptr @oLWW3Cn8u0, align 4
++  %6 = call i32 (ptr, ...) @printf(ptr noundef @WjghZYazCP, i32 noundef %5)
++  %7 = getelementptr inbounds %oVIE5TqmFZ, ptr %2, i32 0, i32 0
+   %8 = load i32, ptr %7, align 4
+-  %9 = getelementptr inbounds %struct.structurino, ptr %2, i32 0, i32 1
++  %9 = getelementptr inbounds %oVIE5TqmFZ, ptr %2, i32 0, i32 1
+   %10 = load i32, ptr %9, align 4
+-  call void @my_function(i32 noundef %8, i32 noundef %10)
++  call void @"5NXw3t19So"(i32 noundef %8, i32 noundef %10)
+   ret i32 0
+ }
+ 

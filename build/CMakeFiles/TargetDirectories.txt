@@ -1,0 +1,13 @@
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/intrinsics_gen.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/omp_gen.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/acc_gen.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/ManglePass.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/install-ManglePass.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/install-ManglePass-stripped.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/edit_cache.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/rebuild_cache.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/list_install_components.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/install.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/install/local.dir
+/Users/ehsaasrajpurohit/Desktop/CD El/IM-LLVM-Pass-main/build/CMakeFiles/install/strip.dir
